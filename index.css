@@ -60,8 +60,8 @@ body
 #wb_YouTube3
 {
    position: absolute;
-   left: 128px;
-   top: 15px;
+   left: 11px;
+   top: 297px;
    width: 103px;
    height: 57px;
    z-index: 2;
@@ -78,8 +78,8 @@ body
 #wb_YouTube5
 {
    position: absolute;
-   left: 128px;
-   top: 110px;
+   left: 11px;
+   top: 395px;
    width: 103px;
    height: 57px;
    z-index: 4;
@@ -87,8 +87,8 @@ body
 #wb_YouTube7
 {
    position: absolute;
-   left: 128px;
-   top: 204px;
+   left: 11px;
+   top: 492px;
    width: 103px;
    height: 57px;
    z-index: 5;
@@ -111,7 +111,7 @@ body
    height: 57px;
    z-index: 1;
 }
-@media only screen and (min-width: 320px)
+@media only screen and (max-width: 119px) and (orientation: portrait)
 {
 body
 {
@@ -172,74 +172,6 @@ body
 {
    left: 128px;
    top: 204px;
-   width: 103px;
-   height: 57px;
-   visibility: visible;
-   display: inline;
-   margin: 0;
-}
-}
-@media only screen and (max-width: 319px) and (orientation: portrait)
-{
-body
-{
-   background-color: #D2B48C;
-   background-image: none;
-}
-#wb_YouTube1
-{
-   left: 11px;
-   top: 15px;
-   width: 103px;
-   height: 57px;
-   visibility: visible;
-   display: inline;
-   margin: 0;
-}
-#wb_YouTube2
-{
-   left: 11px;
-   top: 110px;
-   width: 103px;
-   height: 57px;
-   visibility: visible;
-   display: inline;
-   margin: 0;
-}
-#wb_YouTube3
-{
-   left: 11px;
-   top: 292px;
-   width: 103px;
-   height: 57px;
-   visibility: visible;
-   display: inline;
-   margin: 0;
-}
-#wb_YouTube4
-{
-   left: 11px;
-   top: 204px;
-   width: 103px;
-   height: 57px;
-   visibility: visible;
-   display: inline;
-   margin: 0;
-}
-#wb_YouTube5
-{
-   left: 11px;
-   top: 376px;
-   width: 103px;
-   height: 57px;
-   visibility: visible;
-   display: inline;
-   margin: 0;
-}
-#wb_YouTube7
-{
-   left: 11px;
-   top: 457px;
    width: 103px;
    height: 57px;
    visibility: visible;
